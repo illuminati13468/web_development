@@ -68,6 +68,12 @@ div {
 }
 .chili-img {
   width: 25%;
-  float: left;
+  float: right;
   margin-right: 30px;
+}
+.code-skill-description {
+  clear: left;
+}
+.chili-skill-description {
+  clear: right;
 }
