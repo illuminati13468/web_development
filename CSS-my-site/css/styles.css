@@ -2,11 +2,11 @@ body {
   margin:0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 2em;
+  font-size: 200%;
   }
 
 h1{
-  font-size: 5.625em;/* this is a dynamic way of setting fontsize */
+  font-size: 5.625rem;/* this is a dynamic way of setting fontsize */
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
