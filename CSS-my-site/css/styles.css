@@ -7,7 +7,7 @@ body {
 
 h1{
   font-size: 5.625rem;/* this is a dynamic way of setting fontsize */
-  margin-top: 0;
+  margin-top: 50px;
   font-family: 'Sacramento', cursive;
 }
 h2{
