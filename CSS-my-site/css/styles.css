@@ -57,8 +57,17 @@ div {
 }
 .skill-row {
   width: 50%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chili-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
