@@ -65,11 +65,19 @@ div {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 .chili-img {
   width: 25%;
   float: right;
   margin-right: 30px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 .code-skill-description {
   clear: left;
