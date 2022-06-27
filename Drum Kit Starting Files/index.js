@@ -49,3 +49,7 @@ for (var i = 0; i<numberOfDrumButtons; i++) {
 
   });
 }
+
+addEventListener("keypress", function() {
+  alert("key was pressed")
+});
