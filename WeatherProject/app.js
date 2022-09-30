@@ -15,9 +15,11 @@ app.get("/", function(req, res) {
       const temperature = weatherData.main.temp
       const location = weatherData.name
       const weatherDescription = weatherData.weather[0].description
-      const icon_url = "http://openweathermap.org/img/wn/" + 10d@2x + ".png"
+      const icon_url = weatherData.weather[0].icon
+      const image_url = "http://openweathermap.org/img/wn/" + icon_url + "@2x.png"
       res.write("<p>The weather is currently " + weatherDescription + "</p>")
       res.write("<h1>The temperature in " + location + " is " + temperature + " degrees celcious </h1>")
+      res.write("<img src=" + image_url +">")
       res.send();
     })
   })
@@ -29,7 +31,7 @@ app.get("/", function(req, res) {
 
 
 
-
+s
 
 
 
