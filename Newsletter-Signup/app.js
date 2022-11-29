@@ -27,3 +27,8 @@ app.listen(3000, function() {
   console.log("Server is running on port 3000");
 
 })
+// API KEY
+// 170779bc1d5b4022ddb5a036d8967712-us21
+
+// Audience ID or list // IDEA:
+// f6edc6f718
